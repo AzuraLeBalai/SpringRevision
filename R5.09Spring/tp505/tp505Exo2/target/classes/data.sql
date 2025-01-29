@@ -1,0 +1,2 @@
+INSERT INTO Author (name,firstname,email) VALUES ('William', 'Shakespeare', 'WilliamShakespeare@gmail.com');
+INSERT INTO Author (name,firstname,email) VALUES ('Leo', 'Tolstoy', 'LeoTolstoy@gmail.com');

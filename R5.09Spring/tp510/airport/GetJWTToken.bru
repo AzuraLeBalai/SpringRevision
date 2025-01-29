@@ -1,0 +1,29 @@
+meta {
+  name: GetJWTToken
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:9090/token
+  body: multipartForm
+  auth: none
+}
+
+body:json {
+  client_id : tom
+  client_secret : TellThisOnePersonAtATime
+  grant_type : client_credentials
+  scope : passager
+}
+
+body:multipart-form {
+  client_id: tom
+  client_secret: TellThisOnePersonAtATime
+  grant_type: client_credentials
+  scope: passager
+}
+
+script:post-response {
+  bru.setVar("token", res.body.access_token);
+}

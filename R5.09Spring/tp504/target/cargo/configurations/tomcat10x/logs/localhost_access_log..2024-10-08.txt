@@ -1,0 +1,8 @@
+127.0.0.1 - - [08/Oct/2024:11:30:54 +0200] "GET /cargocpc/index.html HTTP/1.1" 200 124
+127.0.0.1 - - [08/Oct/2024:11:31:10 +0200] "GET /tp2/servlet-compteur HTTP/1.1" 404 605
+127.0.0.1 - - [08/Oct/2024:11:32:41 +0200] "GET /tp504/login.jsp HTTP/1.1" 200 522
+127.0.0.1 - - [08/Oct/2024:11:32:41 +0200] "GET /tp504/style.css HTTP/1.1" 200 615
+127.0.0.1 - - [08/Oct/2024:11:32:57 +0200] "POST /tp504/verif HTTP/1.1" 302 -
+127.0.0.1 - - [08/Oct/2024:11:32:57 +0200] "GET /tp504/login.jsp?mess=login/mdp%20incorrect%20:%20admin%20admin HTTP/1.1" 200 565
+127.0.0.1 - - [08/Oct/2024:11:33:32 +0200] "POST /tp504/verif HTTP/1.1" 302 -
+127.0.0.1 - - [08/Oct/2024:11:33:32 +0200] "GET /tp504/private/welcome1 HTTP/1.1" 200 209

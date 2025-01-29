@@ -1,0 +1,2 @@
+INSERT INTO author (idauthor, email, firstname, name) VALUES (1, 'araki@jojo.com', 'Hirohiko', 'Araki');
+INSERT INTO author (idauthor, email, firstname, name) VALUES (2, 'itagaki@beastars.com', 'Paru', 'Itagaki');
